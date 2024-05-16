@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 import profileBanner from "../../../public/hero-profile/profileBanner.png";
+
 import bullet from "../../../public/hero-profile/bullet.svg";
 import correctIcon from "../../../public/hero-profile/correctIcon.svg";
 
@@ -27,7 +28,7 @@ export default function Index() {
   return (
     <div className="w-full relative">
       <Image
-        src={profileBanner}
+        src='/profile-banner.svg'
         alt="Background image"
         width="1950"
         height="450"
@@ -35,7 +36,7 @@ export default function Index() {
       />
       <div className=" flex-wrap max-w-screen-2xl mx-auto relative -mt-36 z-20 mb-3">
         <Image
-          src={logoFundo}
+          src='/logo-fundo-branco.svg'
           alt="Logo image"
           width={200}
           height={200}
@@ -45,7 +46,7 @@ export default function Index() {
       <div className=" flex-wrap max-w-screen-2xl mx-auto">
         <div className="text-3xl font-medium italic text-white py-2">
           My Crypto Soccer Team NFT
-          <span>
+          <span className=" ml-2">
             <Image
               src={correctIcon}
               alt="Background image"
@@ -130,7 +131,8 @@ export default function Index() {
             className=" text-white font-bold py-1 px-4"
             onClick={() => setIsExpanded(!isExpanded)}
           >
-            {isExpanded ? "See less" : "See more"}
+            {isExpanded ?"See less ▲ " : "See more ▼ "}
+
           </button>
 
           {isExpanded && (

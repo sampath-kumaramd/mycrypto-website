@@ -113,8 +113,8 @@ export default function Index() {
             />
           </div>
           <div className="w-[44vh] border-2 rounded-lg border-[#0ED4FA]">
-            <div className="flex justify-between outline-none bg-[#0E1824] text-white text-xl w-full py-4 px-1 rounded-lg">
-              <div>Search Assets</div>
+            <div className="flex justify-between outline-none bg-[#0E1824] text-white text-xl w-full py-4 px-8 rounded-lg">
+              <input placeholder="Search Assets " className="bg-[#0E1824] w-full"></input>
               <Image
                 src="/hero-marketplace/players/search.svg"
                 alt="thishi"
@@ -124,12 +124,12 @@ export default function Index() {
             </div>
           </div>
           <div className="w-64 border-2 rounded-lg border-[#0ED4FA]">
-            <select className="outline-none bg-[#0E1824] text-white w-full py-4 px-1 rounded-lg">
+            <select className="outline-none bg-[#0E1824] text-white w-full py-4 px-4 rounded-lg">
               <option className="text-xl">ETH</option>
             </select>
           </div>
           <div className="w-64 border-2 rounded-lg border-[#0ED4FA]">
-            <select className="outline-none bg-[#0E1824] text-white w-full py-4 px-1 rounded-lg">
+            <select className="outline-none bg-[#0E1824] text-white w-full py-4 px-4 rounded-lg">
               <option className="text-xl">Price(Low-to High)</option>
             </select>
           </div>
@@ -138,8 +138,11 @@ export default function Index() {
           <div className="grid grid-cols-6 gap-4 py-8">
             {playersInfo.slice(0, rows * 6).map((player) => (
               <div key={player.id} className="w-full">
-                <div className="bg-[#0E1824] w-auto rounded-2xl">
-                {/* <div className="relative top-10 left-20 w-12 bg-black opacity-50 z-20">Hello</div> */}
+                <div className="bg-[#0E1824] w-auto rounded-2xl relative">
+                <div className=" absolute top-4 right-4  bg-[#0000008e] z-20 p-1 rounded-lg">
+                  <div className=" text-[#0ed4fa] text-center" style={{fontSize: 10}}>Auction ends in</div>
+                  <div className=" text-[#0ed4fa] text-center" style={{fontSize: 10}}>2h : 12m : 02s left</div>
+                </div>
                   <Image
                     src={player.src}
                     alt="Background image"
