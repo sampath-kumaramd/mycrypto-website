@@ -7,7 +7,7 @@ import correctIcon from "../../../public/hero-profile/correctIcon.svg";
 
 import logoFundo from "../../../public/hero-profile/logoFundo.png";
 
-export default function index() {
+export default function Index() {
   const uniqueItems = 255;
   const totalItems = 31.9;
   const createdMOnthe = "Oct";

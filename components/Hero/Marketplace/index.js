@@ -2,12 +2,8 @@ import React, { useState } from "react";
 
 import Items from "./Items";
 
-export default function index() {
-
-
-
+export default function Index() {
   const [activeTab, setActiveTab] = useState("tab1");
-
   const content = {
     tab1: <Items/>,
     tab2: <div className="p-4 bg-white shadow rounded">Content for Tab 2</div>,
