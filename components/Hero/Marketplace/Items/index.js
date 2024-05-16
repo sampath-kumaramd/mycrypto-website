@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 import { itemList, itemList2, list3, playersInfo } from "./item-list-data";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Index() {
   const [selectedOptions, setSelectedOptions] = useState({});
@@ -16,6 +18,7 @@ export default function Index() {
     setRows(rows + 3);
   };
 
+  const router = useRouter();
   return (
     <div className="flex gap-5 w-full">
       <div>
@@ -168,9 +171,11 @@ export default function Index() {
                         {player.bid}
                       </span>
                     </div>
-                    <button className="rounded-lg bg-[#0ED4FA] p-2 w-full my-2">
+               
+                    <button className="rounded-lg bg-[#0ED4FA] p-2 w-full my-2" onClick={() => router.push('home/1')}>
                       Place a bid
                     </button>
+  
                   </div>
                 </div>
               </div>
