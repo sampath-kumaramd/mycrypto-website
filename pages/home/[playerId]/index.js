@@ -47,14 +47,14 @@ export default function Index() {
                                 />
                                 <span className=' text-gray-400' >Gods Unchained Cards</span>
                             </div>
-                            <div>
+                            <button >
                                 <Image
                                     src='/player/copy -button.png'
                                     alt="bg"
                                     width={45}
                                     height={45}
                                 />
-                            </div>
+                            </button>
                         </div>
 
                         <div className=' text-white'>
@@ -151,6 +151,8 @@ export default function Index() {
                                 </div>
                             ))}
                         </div>
+
+                        <div className=' mt-8 text-gray-300'>No Description available</div>
                     </div>
                 </div>
                 <HeroFooter />

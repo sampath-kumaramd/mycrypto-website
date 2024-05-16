@@ -9,20 +9,23 @@ import bg from "../../public/bg.png";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col relative">
-      <Image
-        src={bg}
-        alt="Picture of the author"
-        width="1950"
-        height="3200"
-        className="absolute"
-      />
-      <div className="absolute z-20">
+    < >
+      <div
+        style={{
+          backgroundImage: `url(/bg.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          width: '100%',
+          height: '400vh',
+        }}
+        className=' relative'
+      >
         <HeroHeader />
         <HeroProfile />
         <HeroMarketplace />
         <HeroFooter />
       </div>
-    </div>
+    </>
   );
 }
