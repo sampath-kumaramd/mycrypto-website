@@ -17,7 +17,7 @@ export default function index() {
           height="40"
         />
       </div>
-      <div className="w-64 border-2 border-sky-400 rounded-xl">
+      <div className="w-64 border-2 border-sky-400 rounded-xl pl-4 items-center flex">
       <Image
           src={search}
           alt="Picture of the author"
