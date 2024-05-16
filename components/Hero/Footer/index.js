@@ -11,7 +11,7 @@ import sendIcon from "../../../public/hero-footer/sendIcon.svg";
 
 export default function index() {
   return (
-    <div>
+    <div className=" absolute bottom-0">
       <Image src={footer}
       alt="Picture of the author"
       width="1950"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { itemList, itemList2, list3, playersInfo } from "./item-list-data";
 
-export default function index() {
+export default function Index() {
   const [selectedOptions, setSelectedOptions] = useState({});
 
   const handleSelectChange = (itemId, optionId) => {
