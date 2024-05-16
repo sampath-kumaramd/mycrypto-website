@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 import Items from "./Items";
 
@@ -15,11 +16,12 @@ export default function index() {
   };
 
   return (
-    <div className="flex flex-wrap max-w-screen-2xl mx-auto">
-      <div className="w-full text-center text-6xl text-sky-500 font-bold py-12">
-        Explore Marketplace
-      </div>
+    <div>
       <div>
+        <div className="w-full text-center text-6xl text-[#0ED4FA] font-bold pt-12">Explore Marketplace</div>
+        <Image src='/hero-marketplace/players/line.png' alt='line' width={1950} height={20}/>
+      </div>
+      <div className="flex flex-wrap max-w-screen-2xl mx-auto mt-10">
         <div className="flex mb-4 space-x-12 text-xl">
           <button
             className={`${

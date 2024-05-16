@@ -33,15 +33,17 @@ export default function index() {
         height="450"
         className="absolute z-10"
       />
-      {/* <Image
-      src={logoFundo}
-      alt="Logo image"
-      width='200'
-      height='200'
-      className="absolute z-20 top-1/2 left-1/2 transform translate-x-1/2 -translate-y-1/2"
-    /> */}
+      <div className=" flex-wrap max-w-screen-2xl mx-auto relative -mt-36 z-20 mb-3">
+        <Image
+          src={logoFundo}
+          alt="Logo image"
+          width={200}
+          height={200}
+        />
+      </div>
+
       <div className=" flex-wrap max-w-screen-2xl mx-auto">
-        <div className="text-xl font-medium italic text-white">
+        <div className="text-3xl font-medium italic text-white py-2">
           My Crypto Soccer Team NFT
           <span>
             <Image
@@ -123,16 +125,16 @@ export default function index() {
             />
           </div>
         </div>
-        <div className="p-4 mx-8">
+        <div className="p-3 mx-8">
           <button
-            className=" text-white font-bold py-2 px-4"
+            className=" text-white font-bold py-1 px-4"
             onClick={() => setIsExpanded(!isExpanded)}
           >
             {isExpanded ? "See less" : "See more"}
           </button>
 
           {isExpanded && (
-            <p className="mt-4 text-white font-light -mx-8">
+            <p className="my-4 text-white font-light -mx-4">
               <span> Unique items {uniqueItems} . </span>
               <span> Total items {totalItems}k . </span>
               <span>
@@ -171,7 +173,6 @@ export default function index() {
             <div className="text-lg">unique owners</div>
           </div>
         </div>
-
       </div>
     </div>
   );

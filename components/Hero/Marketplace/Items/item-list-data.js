@@ -11,6 +11,13 @@ import traits from "../../../../public/hero-marketplace/items/traits.svg"
 import types from "../../../../public/hero-marketplace/items/types.svg"
 import year from "../../../../public/hero-marketplace/items/year.svg"
 
+import player1 from "../../../../public/hero-marketplace/players/player1.png"
+import player2 from "../../../../public/hero-marketplace/players/player2.png"
+import player3 from "../../../../public/hero-marketplace/players/player3.png"
+import player4 from "../../../../public/hero-marketplace/players/player4.png"
+import player5 from "../../../../public/hero-marketplace/players/player5.png"
+import player6 from "../../../../public/hero-marketplace/players/player6.png"
+
 const volume = '$511.8K USD';
 const items = '38.8M';
 const ownersMarketPlace = '206.9k';
@@ -305,4 +312,201 @@ export const list3 = [
     
     
     
+]
+
+export const playersInfo = [
+    {
+        id : 1,
+        src: player1,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 2,
+        src: player2,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 3,
+        src: player3,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 4,
+        src: player4,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 5,
+        src: player5,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 6,
+        src: player6,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 1,
+        src: player1,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 2,
+        src: player2,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 3,
+        src: player3,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 4,
+        src: player4,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 5,
+        src: player5,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 6,
+        src: player6,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 1,
+        src: player1,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 2,
+        src: player2,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 3,
+        src: player3,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 4,
+        src: player4,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 5,
+        src: player5,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 6,
+        src: player6,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 1,
+        src: player1,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 2,
+        src: player2,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 3,
+        src: player3,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 4,
+        src: player4,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 5,
+        src: player5,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    {
+        id : 6,
+        src: player6,
+        name : 'Evoltron',
+        team : '@content_cat',
+        bid : '329.009 ETH',
+        time : '2h : 12m : 02s'
+    },
+    
+
 ]
