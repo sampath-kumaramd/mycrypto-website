@@ -5,9 +5,9 @@ import HeroProfile from '../../../components/Hero/Profile'
 import HeroMarketplace from '../../../components/Hero/Marketplace'
 import Image from 'next/image'
 import bg from "../../../public/bg.png";
-import { playerData } from './playerData.js'
+import { playerData } from '../../../lib/bin/playerData.js'
 
-export default function index() {
+export default function Index() {
     return (
         <>
             <div
